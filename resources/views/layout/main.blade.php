@@ -47,8 +47,8 @@
               <li class="nav-item"><a href="{{url('#apply')}}" class="nav-link clPage">How to Apply</a></li>              
               <li class="nav-item"><a href="{{url('#isiContactUS')}}" class="nav-link clPage">Contact Us</a></li>
               <li class="nav-item"><a href="{{url('#about')}}" class="nav-link clPage">About Us</a></li>
-            </ul>
-          </div>
+            </ul>            
+          </div>       
         </div>
       </nav>
 
