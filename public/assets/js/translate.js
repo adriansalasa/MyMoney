@@ -1,13 +1,15 @@
 $('.Eng').click(function(){  
         $('.Ind').show();               
         $('.Ind').addClass('selShow')
+        $('#hidTranslate').val(0);
       });
 
-$('.Ind').click(function(){
+$('.Ind').click(function(){        
         $('.Ind').removeClass('Ind')                
         $('.Eng').hide();   
-        translateToIndo();        
-});
+        translateToIndo(); 
+        $('#hidTranslate').val(1);                 
+      });
 
 function translateToIndo(){
     // Translate Navbar

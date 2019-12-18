@@ -15,6 +15,7 @@
                   <img class="img-fluid" src="{{asset('assets/img/res_happyman.png')}}" alt="Happy man" >
               </div>
 	            <div class="col-md-5">
+                <input type="text" id="hidTranslate">
 	              <h1 class="mb-4" id="sTitle">Your Financial Problem Solution</h1>
 	              <p id="psTitle">We can help your financial problem by offering the Quick Loans 
                 with low interest. We offer loans from Rp. 500.000 - Rp. 50.000.000. 
