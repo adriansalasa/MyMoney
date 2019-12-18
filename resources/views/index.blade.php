@@ -153,13 +153,13 @@
             <div class="card shadow p-1 mb-3 bg-white rounded">
             	<div class="col-md-12 text-center heading-section mt-3 ftco-animate">
                 <div class="card-header headContact">
-      					   <h1 class="scontact">contact us</h1>  				
+      					   <h1 class="scontact" id="HConUS">contact us</h1>  				
                 </div>
                 <div class="card-body">
                   <form method="POST" action="/pay_verify" name="post_Verify" enctype="multipart/form-data">
                   @csrf                               
                     <div class="form-group row ftco-animate">
-                      <label for="txtUsrName" class="col-sm-2 ml-4 col-form-label" >Username
+                      <label for="txtUsrName" class="col-sm-2 ml-4 col-form-label" id="lblUsrNm" >Username
                         <span class="errRequired">*</span>
                       </label> 
                        <div class="col-sm-8"> 
@@ -169,7 +169,7 @@
                     </div>            
 
                     <div class="form-group row ftco-animate">
-                      <label for="txtsEmail" class="col-sm-2 ml-4 col-form-label" >Email
+                      <label for="txtsEmail" class="col-sm-2 ml-4 col-form-label" id="lblEmail" >Email
                         <span class="errRequired">*</span>
                       </label> 
                       <div class="col-sm-8">
@@ -179,7 +179,7 @@
                     </div>
 
                     <div class="form-group row ftco-animate">
-                      <label for="txtsTelp" class="col-sm-2 ml-4 col-form-label" >No. Telp
+                      <label for="txtsTelp" class="col-sm-2 ml-4 col-form-label" id="lblPhone" >Phone
                             <span class="errRequired">*</span> 
                       </label> 
                       <div class="col-sm-8">
@@ -189,11 +189,11 @@
                     </div>         
 
                     <div class="form-group row ftco-animate">
-                      <label for="txtsmsg" class="col-sm-2 ml-4 col-form-label" >Pesan
+                      <label for="txtsmsg" class="col-sm-2 ml-4 col-form-label" id="lblMessage" >Message
                             <span class="errRequired">*</span> 
                       </label> 
                       <div class="col-sm-8">
-                          <textarea name="txtsmsg" id="txtsmsg" class="form-control @error('txtsmsg') is-invalid @enderror" placeholder="type your message..." style="background-color: #e8f0fd" value="{{old('txtsmsg')}}"></textarea>
+                          <textarea name="txtsmsg" id="txtsmsg" class="form-control @error('txtsmsg') is-invalid @enderror" placeholder="Type your message..." style="background-color: #e8f0fd" value="{{old('txtsmsg')}}"></textarea>
                           @error('txtsmsg')<div class="invalid-feedback">{{ 'Please type your message..!'}}</div>@enderror 
                       </div>                     
                     </div>  

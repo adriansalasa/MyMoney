@@ -45,4 +45,15 @@ function translateToIndo(){
         $('#pHGL').html("Pinjaman cair")
 
         $('#pBtnApply').html("Daftar Sekarang")        
+
+        // Translate SubJudul ke 2
+        $('#HConUS').html("Hubungi Kami")        
+        $('#lblUsrNm').html("Nama Pengguna")
+        $('#txtUsrName').attr("placeholder", "Masukan Nama Anda...")
+        $('#lblEmail').html("Alamat Email")
+        $('#txtsEmail').attr("placeholder", "Masukan alamat Email Anda...")
+        $('#lblPhone').html("Nomor Telpon")
+        $('#txtsTelp').attr("placeholder", "Masukan nomor Telpon Anda...")
+        $('#lblMessage').html("Tulis Pesan")
+        $('#txtsmsg').attr("placeholder", "Tulis pesan yang akan anda sampaikan...")    
 }
