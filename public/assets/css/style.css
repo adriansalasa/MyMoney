@@ -1582,6 +1582,53 @@ pre {
   color: white; 
 }
 
+.selLang .Eng{  
+  border: 1px solid;
+  border-radius: 15px;
+  border-color: white;
+  background-color: lightskyblue;  
+ 
+  list-style-type: none;  
+  width: 30px;    
+  position: relative;
+}
+
+.trans{
+  margin-top: 12px;
+}
+
+.selLang  a{    
+  padding: 3px;
+}
+
+.selLang .Eng  a{    
+  color: #ffffff;
+}
+
+.selLang .Ind{
+  border: 1px solid;
+  border-radius: 15px;
+  border-color: white;  
+  background-color: white;  
+  color: lightskyblue;
+  list-style-type: none;  
+  width: 30px;
+  display: none;
+  position: absolute;
+}
+
+.selShow{
+  border: 1px solid;
+  border-radius: 15px;
+  border-color: white;  
+  background-color: white;  
+  color: lightskyblue;
+  list-style-type: none;  
+  width: 30px;
+  display: block;
+  position: relative;
+}
+
 .isiContactUS{
   margin-top: 150px;     
 }
@@ -3437,7 +3484,7 @@ input[type="button"].btn-block {
       -ms-flex-preferred-size: auto;
       flex-basis: auto; }
     .navbar-expand-md .navbar-toggler {
-      display: none; } }
+      display: none; } }    
 
 @media (max-width: 991.98px) {
   .navbar-expand-lg > .container,

@@ -14,7 +14,7 @@ class pagesController extends Controller
      */
     public function index()
     {
-        //
+        alert("kesini");
     }
 
     /**

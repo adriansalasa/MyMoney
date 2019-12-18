@@ -42,13 +42,22 @@
           </button>
           <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item active"><a href="{{url('#home')}}" class="nav-link clPage">Home</a></li>
-              <li class="nav-item"><a href="{{url('#ourservices')}}" class="nav-link clPage">Our Services</a></li>
-              <li class="nav-item"><a href="{{url('#apply')}}" class="nav-link clPage">How to Apply</a></li>              
-              <li class="nav-item"><a href="{{url('#isiContactUS')}}" class="nav-link clPage">Contact Us</a></li>
-              <li class="nav-item"><a href="{{url('#about')}}" class="nav-link clPage">About Us</a></li>
+              <li class="nav-item active"><a href="{{url('#home')}}" class="nav-link clPage" id="hm">Home</a></li>
+              <li class="nav-item"><a href="{{url('#ourservices')}}" class="nav-link clPage" id="svc">Our Services</a></li>
+              <li class="nav-item"><a href="{{url('#apply')}}" class="nav-link clPage" id="happly">How to Apply</a></li>              
+              <li class="nav-item"><a href="{{url('#isiContactUS')}}" class="nav-link clPage" id="cntUS">Contact Us</a></li>
+              <li class="nav-item"><a href="{{url('#about')}}" class="nav-link clPage" id="abtUS">About Us</a></li>
+
+              <div class="trans">
+                <ul class="selLang">
+                  <li class="Eng"><a href="#">EN</a></li>
+                  <li class="Ind text-center"><a href="#">ID</a></li>
+                </ul>
+              </div>
+
             </ul>            
-          </div>       
+          </div> 
+               
         </div>
       </nav>
 
@@ -70,5 +79,7 @@
     <script src="{{asset('assets/js/bootstrap-datepicker.js')}}"></script>
     <script src="{{asset('assets/js/jquery.timepicker.min.js')}}"></script>
     <script src="{{asset('assets/js/main.js')}}"></script>
+    <script src="{{asset('assets/js/translate.js')}}"></script>
+        
   </body>
 </html>

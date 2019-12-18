@@ -17,3 +17,5 @@
 Route::get('/', function(){
 	return view('index');
 });
+
+Route::get('/ID', 'pagesController@index');
