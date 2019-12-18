@@ -217,12 +217,12 @@
       <div class="parallax-img d-flex align-items-center">
           <div class="container">
               <div class="row d-flex justify-content-center rabout ftco-animate">
-                <h1 class="sabout">
+                <h1 class="sabout" id="HAbout">
                   About Us
                 </h1>
               </div>
             <div class="row sjdl ftco-animate">
-              <p class="heading">Eazy money is money loan application that developed by PT. Graha Mitra Teguh for help people that urgently need money. Eazy money offer loans from Rp. 500.000 - Rp. 50.000.000 and It has variety installment from Weekly, Monthly and Weekly </p>
+              <p class="heading" id="pHAbout">Eazy money is money loan application that developed by PT. Graha Mitra Teguh for help people that urgently need money. Eazy money offer loans from Rp. 500.000 - Rp. 50.000.000 and It has variety installment from Weekly, FortNightly or Monthly </p>
             </div>
           </div>
       </div>

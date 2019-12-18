@@ -21,7 +21,7 @@ function translateToIndo(){
         $('#sTitle').html("Solusi Masalah Keuangan anda")
         $('#psTitle').html("Kami dapat membantu masalah keuangan anda dengan memberikan penawaran pinjaman cepat dengan bunga rendah. Dapatkan pinjaman mulai dari Rp. 500.000 - Rp. 50.000.000. Setelah di approve dana akan langsung ditransfer ke rekening anda. ")
 
-        // Translate SubJudul ke 2
+        // Translate SubJudul Our Services
         $('#sHOS').html("Layanan Kami")
         $('#pOSH2').html("Kami memberi anda kemudahan akses untuk meminjam dengan bunga yang rendah")
 
@@ -46,7 +46,7 @@ function translateToIndo(){
 
         $('#pBtnApply').html("Daftar Sekarang")        
 
-        // Translate SubJudul ke 2
+        // Translate SubJudul Contact US
         $('#HConUS').html("Hubungi Kami")        
         $('#lblUsrNm').html("Nama Pengguna")
         $('#txtUsrName').attr("placeholder", "Masukan Nama Anda...")
@@ -58,4 +58,8 @@ function translateToIndo(){
         $('#txtsmsg').attr("placeholder", "Tulis pesan yang akan anda sampaikan...") 
         $('#btn_post_Verify').html("Kirim")   
         $('#btnReset').html("Batalkan")
+
+        // Translate SubJudul About US
+        $('#HAbout').html("Tentang Kami")
+        $('#pHAbout').html("Eazy Money adalah aplikasi peminjaman dana online yang dikembangkan oleh PT. Graha Mitra Teguh untuk membantu orang-orang yang membutuhkan dana untuk keperluan mendesak. Eazy Money menawarkan pinjaman mulai dari Rp. 500.000 - Rp. 50.000.000 dan waktu cicilan pengembalian dana bisa dilakukan per Minggu, per 2 Minggu atau per Bulan ")
 }
