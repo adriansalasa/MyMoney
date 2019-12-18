@@ -55,5 +55,7 @@ function translateToIndo(){
         $('#lblPhone').html("Nomor Telpon")
         $('#txtsTelp').attr("placeholder", "Masukan nomor Telpon Anda...")
         $('#lblMessage').html("Tulis Pesan")
-        $('#txtsmsg').attr("placeholder", "Tulis pesan yang akan anda sampaikan...")    
+        $('#txtsmsg').attr("placeholder", "Tulis pesan yang akan anda sampaikan...") 
+        $('#btn_post_Verify').html("Kirim")   
+        $('#btnReset').html("Batalkan")
 }
