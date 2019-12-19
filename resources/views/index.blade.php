@@ -15,7 +15,7 @@
                 <input type="hidden" id="hidTranslate">
                 <h1 class="mb-4" id="sTitle">Your Financial Problem Solution</h1>
                 <p id="psTitle">We can help your financial problem by offering the Quick Loans 
-                with low interest. We offer loans from Rp. 500.000 - Rp. 50.000.000. 
+                with low interest. We offer loans from Rp. 500.000 - Rp. 60.000.000. 
                 Once it Approved your loan send to your Bank Account directly. </p>               
               </div>
 
@@ -61,7 +61,7 @@
                 <div class="d-flex justify-content-center"><div class="icon color-3 d-flex justify-content-center mb-3"><span class="align-self-center icon-plane"></span></div></div>
                 <div class="media-body p-2">
                   <h3 class="heading" id="sHFE">Fast & Easy</h3>
-                  <p id="pHFE">Fast & easy to Approve. You can get up to 50,000,000 Rp in hour.</p>
+                  <p id="pHFE">Fast & easy to Approve. You can get up to 60,000,000 Rp in hour.</p>
                 </div>
               </div>    
             </div>
@@ -140,7 +140,7 @@
                     
                </div>               
 
-              <p class="ftco-animate mt-3"><a href="#" class="btn btn-primary btn-outline-white py-3 px-4 btnApply" id="pBtnApply">Apply Now</a></p>
+            <!--   <p class="ftco-animate mt-3"><a href="#" class="btn btn-primary btn-outline-white py-3 px-4 btnApply" id="pBtnApply">Apply Now</a></p> -->
             </div>
           </div>	      
 	     <div class="parallax-img d-flex align-items-center">

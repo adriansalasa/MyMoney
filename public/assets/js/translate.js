@@ -22,7 +22,7 @@ function translateToIndo(){
 
         // Translate SubJudul ke 1
         $('#sTitle').html("Solusi Masalah Keuangan anda")
-        $('#psTitle').html("Kami dapat membantu masalah keuangan anda dengan memberikan penawaran pinjaman cepat dengan bunga rendah. Kami menawarkan pinjaman mulai dari Rp. 500.000 - Rp. 50.000.000.")
+        $('#psTitle').html("Kami dapat membantu masalah keuangan anda dengan memberikan penawaran pinjaman cepat dengan bunga rendah. Kami menawarkan pinjaman mulai dari Rp. 500.000 - Rp. 60.000.000.")
 
         // Translate SubJudul Our Services
         $('#sHOS').html("Layanan Kami")
@@ -47,7 +47,7 @@ function translateToIndo(){
         $('#pHWav').html("Tunggu konfirmasi")
         $('#pHGL').html("Pinjaman cair")
 
-        $('#pBtnApply').html("Daftar Sekarang")        
+        // $('#pBtnApply').html("Daftar Sekarang")        
 
         // Translate SubJudul Contact US
         $('#HConUS').html("Hubungi Kami")        
