@@ -1587,7 +1587,6 @@ pre {
   border-radius: 15px;
   border-color: white;
   background-color: lightskyblue;  
- 
   list-style-type: none;  
   width: 30px;    
   position: relative;
@@ -1629,8 +1628,24 @@ pre {
   position: relative;
 }
 
+.Eng2{
+  border: 1px solid;
+  border-radius: 15px;
+  border-color: white;  
+  background-color: white;  
+  color: lightskyblue;
+  list-style-type: none;  
+  width: 30px;
+  display: block;
+  position: absolute;
+}
+
 .isiContactUS{
   margin-top: 150px;     
+}
+
+.myNavbar{
+  margin-left: 220px;
 }
 
 .form-control {
@@ -7849,7 +7864,14 @@ h1, h2, h3, h4, h5,
 }
 
 .imgCover{
-  margin-top: 100px;
+  margin-top: 150px;
+  /*left: -130px;  */
+  left: 80px;
+}
+
+.fiProb{
+ top: 80px;
+ left: 50px;
 }
 
 

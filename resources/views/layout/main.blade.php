@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="icon" href="{{asset('assets/img/favicon-16x16.png')}}">
+    <link rel="icon" href="{{asset('assets/img/icon_GMC.png')}}">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}">
@@ -36,13 +36,13 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
         <div class="container">
-          <a class="navbar-brand" href="#">Eazy Money</a>
+          <img src="{{asset('assets/img/lil_Global multicash.png')}}" alt="" width="50px" height="50px"><a class="navbar-brand ml-3" href="#">Global Multicash</a>          
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item active"><a href="{{url('#home')}}" class="nav-link clPage" id="hm">Home</a></li>
+              <li class="nav-item active"><a href="{{url('/')}}" class="nav-link clPage" id="hm">Home</a></li>
               <li class="nav-item"><a href="{{url('#ourservices')}}" class="nav-link clPage" id="svc">Our Services</a></li>
               <li class="nav-item"><a href="{{url('#apply')}}" class="nav-link clPage" id="happly">How to Apply</a></li>              
               <li class="nav-item"><a href="{{url('#isiContactUS')}}" class="nav-link clPage" id="cntUS">Contact Us</a></li>

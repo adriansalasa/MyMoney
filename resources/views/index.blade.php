@@ -1,6 +1,6 @@
 @extends('layout.main')
 
-@section('title', 'Eazy Money')
+@section('title', 'Global Multicash')
 
 @section('container')
 
@@ -11,16 +11,19 @@
 	        <div class="overlay"></div>
 	        <div class="container">
 	          <div class="row slider-text align-items-center justify-content-center">
-              <div class="col-md-7 imgCover">
-                  <img class="img-fluid" src="{{asset('assets/img/res_happyman.png')}}" alt="Happy man" >
-              </div>
-	            <div class="col-md-5">
+              <div class="col-md-5 fiProb">
                 <input type="hidden" id="hidTranslate">
-	              <h1 class="mb-4" id="sTitle">Your Financial Problem Solution</h1>
-	              <p id="psTitle">We can help your financial problem by offering the Quick Loans 
+                <h1 class="mb-4" id="sTitle">Your Financial Problem Solution</h1>
+                <p id="psTitle">We can help your financial problem by offering the Quick Loans 
                 with low interest. We offer loans from Rp. 500.000 - Rp. 50.000.000. 
-                Once it Approved your loan send to your Bank Account directly. </p>	              
-	            </div>
+                Once it Approved your loan send to your Bank Account directly. </p>               
+              </div>
+
+              <div class="col-md-7 imgCover">
+                  <!-- <img class="img-fluid" src="{{asset('assets/img/res_happyman.png')}}" alt="Res_Global multicash" > -->
+                  <img src="{{asset('assets/img/Res_Global multicash2.png')}}" alt="Res_Global multicash" width="500px" height="500px">
+              </div>
+	            
 	          </div>
 	        </div>
 	      </div>
@@ -129,7 +132,7 @@
       	              	</div>
       	              </div>
       	              <div class="media-body p-2">
-      	                <h3 class="heading text-white" id="pHGL">Get the Loan</h3>
+      	                <h3 class="heading text-white" id="pHGL">Get your money</h3>
       	              </div>                        
       	            </div>    
       	          </div> 
@@ -223,14 +226,15 @@
                 </h1>
               </div>
             <div class="row sjdl ftco-animate">
-              <p class="heading" id="pHAbout">Eazy money is money loan application that developed by PT. Graha Mitra Teguh for help people that urgently need money. Eazy money offer loans from Rp. 500.000 - Rp. 50.000.000 and It has variety installment from Weekly, FortNightly or Monthly </p>
+              <p class="heading" id="pHAbout">
+              Global Multicash is Information technology platform which managed by Sembilan Bola Dunia that has priority to protect their consumer's security from High Risk.
+              </p>
             </div>
           </div>
       </div>
       <div class="parallax-img d-flex align-items-center"></div>
-      <div class="parallax-img d-flex align-items-center"></div>
-    </section>
-
+      <div class="parallax-img d-flex align-items-center"></div>     
+    </section>   
   </div>  
 
 @endsection

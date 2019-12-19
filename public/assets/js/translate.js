@@ -1,16 +1,17 @@
 $('.Eng').click(function(){  
         $('.Ind').show();               
         $('.Ind').addClass('selShow')
-        $('#hidTranslate').val(0);
+        // $('#hidTranslate').val("0");
       });
 
 $('.Ind').click(function(){        
         $('.Ind').removeClass('Ind')                
-        $('.Eng').hide();   
+        $('.Eng').hide();                   
+        // $('.Eng').remove();
         translateToIndo(); 
-        $('#hidTranslate').val(1);                 
+        // $('#hidTranslate').val("1");            
       });
-
+       
 function translateToIndo(){
     // Translate Navbar
         $('#hm').html("Halaman Utama")
@@ -21,11 +22,11 @@ function translateToIndo(){
 
         // Translate SubJudul ke 1
         $('#sTitle').html("Solusi Masalah Keuangan anda")
-        $('#psTitle').html("Kami dapat membantu masalah keuangan anda dengan memberikan penawaran pinjaman cepat dengan bunga rendah. Dapatkan pinjaman mulai dari Rp. 500.000 - Rp. 50.000.000. Setelah di approve dana akan langsung ditransfer ke rekening anda. ")
+        $('#psTitle').html("Kami dapat membantu masalah keuangan anda dengan memberikan penawaran pinjaman cepat dengan bunga rendah. Kami menawarkan pinjaman mulai dari Rp. 500.000 - Rp. 50.000.000.")
 
         // Translate SubJudul Our Services
         $('#sHOS').html("Layanan Kami")
-        $('#pOSH2').html("Kami memberi anda kemudahan akses untuk meminjam dengan bunga yang rendah")
+        $('#pOSH2').html("Kami memberi anda kemudahan akses pinjaman dengan bunga yang rendah")
 
         $('#sHSecure').html("Keamanan Tingkat Tinggi")
         $('#pHSecure').html("Dengan menggunakan teknologi Enkripsi tingkat tinggi kami akan melidungi data pribadi anda dan tidak akan menyebarkannya kepada siapapun.")
@@ -63,5 +64,5 @@ function translateToIndo(){
 
         // Translate SubJudul About US
         $('#HAbout').html("Tentang Kami")
-        $('#pHAbout').html("Eazy Money adalah aplikasi peminjaman dana online yang dikembangkan oleh PT. Graha Mitra Teguh untuk membantu orang-orang yang membutuhkan dana untuk keperluan mendesak. Eazy Money menawarkan pinjaman mulai dari Rp. 500.000 - Rp. 50.000.000 dan waktu cicilan pengembalian dana bisa dilakukan per Minggu, per 2 Minggu atau per Bulan ")
+        $('#pHAbout').html("Global Multicash adalah platform berbasis technology informasi yang dijalankan oleh Sembilan Bola Dunia yang mengedepankan perlindungan konsumen dan memiliki risiko yang terkelola dengan baik")
 }
