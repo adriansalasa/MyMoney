@@ -21,7 +21,7 @@
 
               <div class="col-md-7 imgCover">
                   <!-- <img class="img-fluid" src="{{asset('assets/img/res_happyman.png')}}" alt="Res_Global multicash" > -->
-                  <img src="{{asset('assets/img/Res_Global multicash2.png')}}" alt="Res_Global multicash" width="500px" height="500px">
+                  <img src="{{asset('assets/img/Res_Global multicash2_opacity.png')}}" alt="Res_Global multicash" width="500px" height="500px">
               </div>
 	            
 	          </div>
