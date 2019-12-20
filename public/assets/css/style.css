@@ -1582,36 +1582,43 @@ pre {
   color: white; 
 }
 
-.selLang .Eng{  
+.selLang .Ind{  
   border: 1px solid;
   border-radius: 15px;
-  border-color: white;
+  border-color: lightskyblue;
   background-color: lightskyblue;  
   list-style-type: none;  
-  width: 30px;    
+  width: 30px; 
+  height: 30px;     
   position: relative;
 }
 
 .trans{
   margin-top: 12px;
+  width: 1px
+}
+
+.selLang{
+   margin-top: 2px;
 }
 
 .selLang  a{    
   padding: 3px;
 }
 
-.selLang .Eng  a{    
+.selLang .Ind  a{    
   color: #ffffff;
 }
 
-.selLang .Ind{
+.selLang .Eng{
   border: 1px solid;
   border-radius: 15px;
   border-color: white;  
   background-color: white;  
   color: lightskyblue;
   list-style-type: none;  
-  width: 30px;
+  width: 30px; 
+  height: 30px;   
   display: none;
   position: absolute;
 }
@@ -1623,7 +1630,8 @@ pre {
   background-color: white;  
   color: lightskyblue;
   list-style-type: none;  
-  width: 30px;
+  width: 30px; 
+  height: 30px;   
   display: block;
   position: relative;
 }
@@ -1633,11 +1641,57 @@ pre {
   border-radius: 15px;
   border-color: white;  
   background-color: white;  
-  color: lightskyblue;
+  /*color: lightskyblue;*/
   list-style-type: none;  
-  width: 30px;
-  display: block;
-  position: absolute;
+  width: 30px; 
+  height: 30px;   
+  display: none;
+  position: relative;
+}
+
+.Eng2Chg{
+  border: 1px solid;
+  border-radius: 15px;
+  border-color: lightskyblue;  
+  background-color: lightskyblue;    
+  list-style-type: none;  
+  width: 30px; 
+  height: 30px;   
+  display: none;
+  position: relative;
+}
+
+.selLang .Eng2Chg  a{    
+  color: #ffffff;
+}
+
+.engblue{
+  border: 1px solid;
+  border-radius: 15px;
+  border-color: lightskyblue;
+  background-color: lightskyblue;  
+  list-style-type: none;  
+  width: 30px; 
+  height: 30px;     
+  position: relative;  
+}
+
+.selLang .engblue  a{    
+  color: #ffffff;
+}
+
+#Eng2{
+  border: 1px solid;
+  border-radius: 15px;
+  background-color: white; 
+  list-style-type: none;  
+  width: 30px; 
+  height: 30px; 
+  position: absolute;     
+}
+
+#Eng2 a{
+   padding: 7px;
 }
 
 .isiContactUS{
